@@ -1,0 +1,29 @@
+
+.ControlBoard textArea {
+  width: 80%;
+  height: 3em;
+  font-size: 1.5em;
+}
+.ControlBoard input {
+  margin: 1em;
+  padding: 1em;
+}
+
+
+.command {
+  display: inline;
+  border: 1px solid black;
+  background-color: white;
+  padding: 0.5em;
+  margin: 0.1em;
+  font-weight: 800;
+}
+.command.left {
+  background-color: #ea1;
+}
+.command.right {
+  background-color: #1ae;
+}
+.command.move {
+  background-color: #1ea;
+}

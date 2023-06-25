@@ -1,0 +1,30 @@
+.GameBoard td {
+  border: 1px solid pink;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+}
+
+
+
+
+.GameBoardWrapper {
+  position: relative;
+  display: inline-block;
+  border: 1px dashed green;
+  padding: 0px;
+  margin: 0px;
+}
+
+.hero {
+  border: 1px solid blue;
+  background-color: yellow;
+  position: absolute;
+  color: red;
+  font-weight: 800;
+  transition: transform 500ms, top 500ms, left 500ms;
+  transform: rotate(0deg);
+
+  left: 0px;
+  top: 0px;
+}

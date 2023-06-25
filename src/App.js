@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import JourneyBotIo from './components/JourneyBotIo';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload. This is the first change inside journey-bot-io.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <p>Journey-io-bot: v0.1</p>
       </header>
+
+      <JourneyBotIo />
+
     </div>
   );
 }
