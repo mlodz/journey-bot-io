@@ -23,6 +23,8 @@ Version 2 will be more polished and at a level where I can let the kids playtest
 - [ ] Stable - relatively bug free, no bugs that interfere with typical use
 - [ ] Works on iPad in landscape mode
 
+
+
 ## Version 3
 Version 3 will add "missions" and "goals"
 
